@@ -5,7 +5,8 @@ body {
     width: 960px;
     font-size: 18px;
     text-align: center;
-    margin:auto
+    margin:auto;
+    overflow: auto
 }
 
 header {
@@ -26,34 +27,40 @@ header {
     background-color: #ebebeb;
     width: 50%;
     margin-right: 20px;
-    height: 300px;
-    padding: 20px
+    height: 200px;
+    padding: 10px;
+   
+
 }
-
-
 
 #article {
     color: #ebebeb;
     background-color: #777;
-    height: 150px;
-    padding: 10px
+    height: 100px;
+    padding: 40px;
+
 }
 
 #h {
     color: #777;
-    background-color: #ebebeb
+    background-color: #ebebeb;
+    padding: 10px
 }
 
 #p {
     color: #777;
-    background-color: #ebebeb
+    background-color: #ebebeb;
+    margin-top: 10px;
+    padding: 10px;
+
+    
 }
 
 #aside {
-    width: 40%;
+    width: 45%;
     background-color: #e72bbe;
-    height: 300px;
-    padding:20px;
+    height: 200px;
+    padding:10px;
     float: right
 }
 
@@ -64,3 +71,4 @@ footer {
     margin-top: 20px;
     margin-bottom: 60px
 }
+
